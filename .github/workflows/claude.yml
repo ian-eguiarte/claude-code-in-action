@@ -30,7 +30,7 @@ jobs:
         with:
           fetch-depth: 1
       
-      -name: Project Setup
+      - name: Project Setup
         run: |
           npm run setup
           npm run dev:daemon
